@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8080
   servlet:
     context-path: /api
   tomcat:
@@ -13,7 +13,7 @@ server:
 # spring配置
 spring:
   application:
-    name: spring-boot-plus
+    name: what-does-cat-do
   # 当前项目maven激活环境，例如：dev/test/prod
   profiles:
     active: dev

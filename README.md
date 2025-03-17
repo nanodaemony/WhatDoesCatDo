@@ -1,26 +1,3 @@
-<p align="center">
-  <a href="https://github.com/geekidea/spring-boot-plus">
-   <img alt="spring-boot-plus logo" src="https://geekidea.oss-cn-chengdu.aliyuncs.com/spring-boot-plus/img/logo.png">
-  </a>
-</p>
-<p align="center">
-  Everyone can develop projects independently, quickly and efficiently！
-</p>
-
-<p align="center">  
-  <a href="https://github.com/geekidea/spring-boot-plus/">
-    <img alt="spring-boot-plus version" src="https://img.shields.io/badge/spring--boot--plus-2.7.18-blue">
-  </a>
-  <a href="https://github.com/spring-projects/spring-boot">
-    <img alt="spring boot version" src="https://img.shields.io/badge/spring%20boot-2.7.18-brightgreen">
-  </a>
-  <a href="https://cn.vuejs.org/">
-    <img alt="spring boot version" src="https://img.shields.io/badge/vue-3.2-darkgreen">
-  </a>
-  <a href="https://github.com/geekidea/spring-boot-plus/blob/master/LICENSE">
-    <img alt="code style" src="https://img.shields.io/badge/license-MIT-green">
-  </a>
-</p>
 
 ## What is spring-boot-plus?
 
@@ -40,15 +17,6 @@
 #### [中文文档](https://github.com/geekidea/spring-boot-plus/blob/master/README-zh.md)
 
 #### [springboot.plus](http://springboot.plus)
-
-## Features
-- Integrated spring boot common development component set, common configuration, AOP log, etc
-- Maven Project
-- Integrated mybatis-plus fast dao operation
-- Quickly generate background code:entity/param/vo/controller/service/mapper/xml
-- Integrated Swagger/Knife4j, automatic generation of api documents
-- Integrated Redis Cache
-- Integration HikariCP connection pool, A solid, high-performance, JDBC connection pool at last.
 
 ## Source code directory structure
 ```text
@@ -330,16 +298,4 @@ public class SpringBootPlusApplication {
 
 ## spring-boot-plus Videos  :movie_camera: 
 
-
-QQ群 625301326| 微信公众号 geekideaio|
--|-|
-![spring-boot-plus QQ Group](https://spring-boot-plus.gitee.io/img/spring-boot-plus-qq-group.png) | ![Wechat Official Account](https://geekidea.oss-cn-chengdu.aliyuncs.com/geekidea/geekidea-wechat-official.jpg) |
-
-微信技术交流群| 业务咨询商务合作|
--|-|
-![微信群](https://geekidea.oss-cn-chengdu.aliyuncs.com/geekidea/wechat-group.png) | ![业务咨询商务合作](https://geekidea.oss-cn-chengdu.aliyuncs.com/geekidea/business-small.png) |
-
-
-## License
-spring-boot-plus is under the MIT-License. See the [LICENSE](https://github.com/geekidea/spring-boot-plus/blob/master/LICENSE) file for details.
 

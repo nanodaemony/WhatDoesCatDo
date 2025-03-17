@@ -1,47 +1,3 @@
-<p align="center">
-  <a href="https://github.com/geekidea/spring-boot-plus">
-   <img alt="spring-boot-plus logo" src="https://geekidea.oss-cn-chengdu.aliyuncs.com/spring-boot-plus/img/logo.png">
-  </a>
-</p>
-<p align="center">
-  Everyone can develop projects independently, quickly and efficiently！
-</p>
-
-<p align="center">  
-  <a href="https://gitee.com/geekidea/spring-boot-plus">
-    <img alt="spring-boot-plus version" src="https://img.shields.io/badge/spring--boot--plus-2.7.18-blue">
-  </a>
-  <a href="https://github.com/spring-projects/spring-boot">
-    <img alt="spring boot version" src="https://img.shields.io/badge/spring%20boot-2.7.18-brightgreen">
-  </a>
-  <a href="https://cn.vuejs.org/">
-    <img alt="spring boot version" src="https://img.shields.io/badge/vue-3.2-darkgreen">
-  </a>
-  <a href="https://gitee.com/geekidea/spring-boot-plus/blob/master/LICENSE">
-    <img alt="code style" src="https://img.shields.io/badge/license-MIT-green">
-  </a>
-</p>
-
-### spring-boot-plus是一套前后端分离单体结构的快速开发框架
-
-## 开源协议 MIT-License
-### 任何公司或个人，均可进行商业使用，无需授权！
-### 任何公司或个人，均可进行商业使用，无需授权！
-### 任何公司或个人，均可进行商业使用，无需授权！
-
-## 前端项目地址  [VUE3+TS](https://gitee.com/geekidea/spring-boot-plus-vue3)
-
-#### [GITHUB](https://github.com/geekidea/spring-boot-plus) | [GITEE](https://gitee.com/geekidea/spring-boot-plus)
-
-#### [springboot.plus](http://springboot.plus)
-
-
-## 微信交流群
-![微信群](https://geekidea.oss-cn-chengdu.aliyuncs.com/geekidea/wechat-group.png)
-
-## 业务咨询
-![业务咨询](https://geekidea.oss-cn-chengdu.aliyuncs.com/geekidea/service.png)
-
 
 ### 主要特性
 - 集成spring boot 常用开发组件集、公共配置、AOP日志等
@@ -105,13 +61,4 @@ lombok | 1.18.30 | 注解生成Java Bean等工具 |
 ![系统日志详情](https://geekidea.oss-cn-chengdu.aliyuncs.com/spring-boot-plus/img/log-detail.png)
 #### 个人中心
 ![个人中心](https://geekidea.oss-cn-chengdu.aliyuncs.com/spring-boot-plus/img/profile.png)
-
-## 联系
-QQ群 625301326| 微信公众号 geekideaio|
--|-|
-![spring-boot-plus QQ Group](https://spring-boot-plus.gitee.io/img/spring-boot-plus-qq-group.png) | ![Wechat Official Account](https://geekidea.oss-cn-chengdu.aliyuncs.com/geekidea/geekidea-wechat-official.jpg) |
-
-
-## License
-spring-boot-plus is under the MIT-License. See the [LICENSE](https://gitee.com/geekidea/spring-boot-plus/blob/master/LICENSE) file for details.
 
