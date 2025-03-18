@@ -1,8 +1,8 @@
-FROM openjdk:8
+FROM openjdk:8-jre-alpine
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-COPY target/what-does-cat-do.jar /what-does-cat-do/what-does-cat-do.jar
-WORKDIR /what-does-cat-do
-EXPOSE 8888
-ENTRYPOINT ["java","-jar","what-does-cat-do.jar"]
+COPY target/spring-boot-plus.jar spring-boot-plus.jar
+WORKDIR /spring-boot-plus
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","spring-boot-plus.jar"]
 
