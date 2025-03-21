@@ -5,6 +5,7 @@ CREATE TABLE `user_profile`
 
     `appleId`         VARCHAR(256) NOT NULL DEFAULT ''     COMMENT '苹果ID',
     `nickname`         VARCHAR(64) NOT NULL DEFAULT ''     COMMENT '昵称',
+    `phone`         VARCHAR(64) NOT NULL DEFAULT ''     COMMENT '电话',
     `avatar`       VARCHAR(512) NOT NULL DEFAULT ''     COMMENT '头像',
     `email`       VARCHAR(512) NOT NULL DEFAULT ''     COMMENT '邮箱',
     `gender`       INT(11) NOT NULL DEFAULT '0'     COMMENT '性别 0-未知 1-男 2-女',

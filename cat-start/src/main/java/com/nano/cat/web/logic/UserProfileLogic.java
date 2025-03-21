@@ -34,7 +34,7 @@ public class UserProfileLogic {
         UserProfile userProfile = userProfileService.getByAppleId(request.getAppleId());
         if (Objects.nonNull(userProfile)) {
             log.info("用户已存在, id: {}", userProfile.getId());
-            return null;
+            return buildUserProfileVO(userProfile);
         }
 
         long id = userProfileService.register(buildUserProfile(request));

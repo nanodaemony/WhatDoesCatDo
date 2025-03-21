@@ -63,7 +63,6 @@ public class UserProfileServiceImpl implements UserProfileService {
         wrapper.eq("id", userProfile.getId());
         wrapper.set("nickname", userProfile.getNickname());
         wrapper.set("avatar", userProfile.getAvatar());
-        wrapper.set("email", userProfile.getEmail());
         wrapper.set("gender", userProfile.getGender());
         wrapper.set("address", userProfile.getAddress());
         wrapper.set("relationShipStatus", userProfile.getRelationShipStatus());
