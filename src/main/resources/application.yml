@@ -17,16 +17,20 @@ spring:
   # 当前项目maven激活环境，例如：dev/test/prod
   profiles:
     active: dev
+
   jackson:
     date-format: yyy-MM-dd HH:mm:ss
     time-zone: Asia/Shanghai
+
   banner:
     charset: UTF-8
     location: classpath:banner.txt
+
   servlet:
     multipart:
       max-file-size: 50MB
       max-request-size: 500MB
+
   # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -37,6 +41,7 @@ spring:
       maximum-pool-size: 20
       idle-timeout: 30000
       max-lifetime: 60000
+
   # redis配置
   redis:
     host: 127.0.0.1
@@ -120,7 +125,7 @@ login:
   # 用户端登录配置
   app:
     # 是否启用APP移动端登录权限校验
-    enable: true
+    enable: false
     # 是否单次登录
     single-Login: false
     # token过期时间，单位为天
@@ -140,7 +145,8 @@ login:
       - /app/**
     # 排除的路径：完全不需要登录校验，也不需要获取登录信息的路径
     exclude-paths:
-      - /app/login,/app/accountLogin
+      - /app/login
+      - /app/accountLogin
     # 需要登录校验的请求路径，与@Login效果一样
     check-login-paths:
       -
@@ -237,6 +243,7 @@ merchant-line:
 springdoc:
   swagger-ui:
     enabled: true
+
 knife4j:
   enable: true
   basic:
@@ -246,16 +253,15 @@ knife4j:
     enable-footer: false
     enable-footer-custom: true
     footer-custom-content: MIT License | Copyright © 2019-2023 [geekidea](https://geekidea.io)
+
 openapi:
-  title: Boot API Docs
-  description: spring-boot-plus后台接口文档
-  terms-of-service: https://github.com/geekidea
-  contact-name: geekidea
+  title: WhatDoesCatDo
+  description: what-does-cat-do后台接口文档
+  contact-name: zp
   contact-url: https://geekidea.io
   contact-email: geekidea@qq.com
   version: 1.0
-  external-description: spring-boot-plus
-  external-url: https://springboot.plus
+  external-description: WhatDoesCatDo
 
 # 日志配置，logback-spring.xml中会引用以下变量
 logback-spring:

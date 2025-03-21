@@ -21,7 +21,7 @@ public class JsonHttpServletRequestWrapper extends HttpServletRequestWrapper {
 
     public JsonHttpServletRequestWrapper(HttpServletRequest request) {
         super(request);
-        //保存一份InputStream，将其转换为字节数组
+        // 保存一份InputStream，将其转换为字节数组
         try {
             body = StreamUtils.copyToByteArray(request.getInputStream());
         } catch (IOException e) {
