@@ -1,4 +1,4 @@
-package com.nano.cat.entity;
+package com.nano.cat.data.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -14,30 +14,26 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName("questionnaire")
-public class Questionnaire {
+@TableName("chat")
+public class Chat {
     @TableId(type = IdType.AUTO)
     private Long id;
+
+    @TableField("userId")
+    private Long userId;
+
+    @TableField("model")
+    private Integer model;
 
     @TableField("title")
     private String title;
 
-    @TableField("subTitle")
-    private String subTitle;
-
-    @TableField("description")
-    private String description;
-
-    @TableField("questionnaireType")
-    private Integer questionnaireType;
-
-    @TableField("coverImage")
-    private String coverImage;
+    @TableField("prompt")
+    private String prompt;
 
     private Integer status;
 
     private Date dbctime;
 
     private Date dbutime;
-
 }

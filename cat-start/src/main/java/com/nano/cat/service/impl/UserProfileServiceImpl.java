@@ -2,7 +2,7 @@ package com.nano.cat.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
-import com.nano.cat.entity.UserProfile;
+import com.nano.cat.data.po.UserProfile;
 import com.nano.cat.mapper.UserProfileMapper;
 import com.nano.cat.service.UserProfileService;
 import java.util.Objects;

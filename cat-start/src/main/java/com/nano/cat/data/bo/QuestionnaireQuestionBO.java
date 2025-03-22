@@ -1,10 +1,11 @@
-package com.nano.cat.entity;
+package com.nano.cat.data.bo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.util.Date;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,26 +15,24 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName("chat")
-public class Chat {
-    @TableId(type = IdType.AUTO)
+public class QuestionnaireQuestionBO {
+
     private Long id;
 
-    @TableField("userId")
-    private Long userId;
+    private Long questionnaireId;
 
-    @TableField("model")
-    private Integer model;
+    // 内容
+    private String content;
 
-    @TableField("title")
-    private String title;
+    // 问题类型
+    private Integer type;
 
-    @TableField("prompt")
-    private String prompt;
+    // 选项
+    private List<String> options;
 
-    private Integer status;
+    // 是否必填
+    private Integer required;
 
-    private Date dbctime;
+    private Integer ordinal;
 
-    private Date dbutime;
 }

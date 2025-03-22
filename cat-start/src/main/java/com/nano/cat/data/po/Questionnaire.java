@@ -1,10 +1,4 @@
-package com.nano.cat.entity;
-
-/**
- * @author chenzeng
- * @version 0.0.1
- * @date 2025/3/20 00:09
- */
+package com.nano.cat.data.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -20,27 +14,27 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName("user_profile")
-public class UserProfile {
+@TableName("questionnaire")
+public class Questionnaire {
     @TableId(type = IdType.AUTO)
     private Long id;
 
-    @TableField("appleId")
-    private String appleId;
+    @TableField("title")
+    private String title;
 
-    @TableField("nickname")
-    private String nickname;
+    @TableField("subTitle")
+    private String subTitle;
 
-    private String avatar;
+    @TableField("description")
+    private String description;
 
-    private String email;
+    @TableField("questionnaireType")
+    private Integer questionnaireType;
 
-    private Integer gender;
+    @TableField("coverImage")
+    private String coverImage;
 
-    private String address;
-
-    @TableField("relationShipStatus")
-    private Integer relationShipStatus;
+    private int ordinal;
 
     private Integer status;
 

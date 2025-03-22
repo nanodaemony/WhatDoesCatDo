@@ -1,4 +1,4 @@
-package com.nano.cat.entity;
+package com.nano.cat.data.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -14,29 +14,23 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName("questionnaire_question")
-public class QuestionnaireQuestion {
+@TableName("user_questionnaire_result")
+public class UserQuestionnaireResult {
 
     @TableId(type = IdType.AUTO)
     private Long id;
 
+    @TableField("userId")
+    private Long userId;
+
     @TableField("questionnaireId")
     private Long questionnaireId;
 
-    @TableField("content")
-    private String content;
+    @TableField("questionId")
+    private Long questionId;
 
-    @TableField("type")
-    private Integer type;
-
-    @TableField("options")
-    private String options;
-
-    @TableField("required")
-    private Integer required;
-
-    @TableField("ordinal")
-    private Integer ordinal;
+    @TableField("answers")
+    private String answers;
 
     private Integer status;
 

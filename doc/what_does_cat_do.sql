@@ -27,6 +27,7 @@ CREATE TABLE `questionnaire`
     `description`      TEXT         NOT NULL COMMENT '问卷描述',
     `questionnaireType` TINYINT(4)   NOT NULL DEFAULT '1' COMMENT '问卷类型 参考枚举 QuestionnaireTypeEnum',
     `coverImage`      VARCHAR(512) NOT NULL DEFAULT '' COMMENT '封面图',
+    `ordinal` INT(4)   NOT NULL DEFAULT '100' COMMENT '排序, 大的排前面',
     `status`           TINYINT(4)   NOT NULL DEFAULT '1' COMMENT '问卷状态 0:不可用 1:可用',
     `dbctime`          DATETIME(3) DEFAULT CURRENT_TIMESTAMP (3) COMMENT '创建时间',
     `dbutime`          DATETIME(3) DEFAULT CURRENT_TIMESTAMP (3) ON UPDATE CURRENT_TIMESTAMP (3) COMMENT '更新时间',

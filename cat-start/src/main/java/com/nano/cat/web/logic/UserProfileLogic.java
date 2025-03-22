@@ -1,7 +1,7 @@
 package com.nano.cat.web.logic;
 
 import cn.hutool.json.JSONUtil;
-import com.nano.cat.entity.UserProfile;
+import com.nano.cat.data.po.UserProfile;
 import com.nano.cat.service.UserProfileService;
 import com.nano.cat.web.data.user.UserProfileVO;
 import com.nano.cat.web.data.user.UserRegisterRequest;
