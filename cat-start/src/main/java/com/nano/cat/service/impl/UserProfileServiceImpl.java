@@ -21,6 +21,7 @@ import org.springframework.stereotype.Service;
 public class UserProfileServiceImpl implements UserProfileService {
 
     private static final Logger log = LoggerFactory.getLogger(UserProfileServiceImpl.class);
+
     @Autowired
     private UserProfileMapper userProfileMapper;
 
